@@ -92,7 +92,8 @@
             <Button
                 android:layout_weight="1"
                 android:layout_width="20dp"
-                android:layout_height="match_parent" />
+                android:layout_height="20dp"
+                android:background="@drawable/arrow"/>
             <TextView
                 android:textColor="#ffff"
                 android:gravity="center"
@@ -102,7 +103,8 @@
             <Button
                 android:layout_weight="1"
                 android:layout_width="20dp"
-                android:layout_height="match_parent" />
+                android:layout_height="20dp"
+                android:background="@drawable/settings"/>
 
     </LinearLayout>
 
@@ -138,10 +140,10 @@
 
                 <ImageView
                     android:id="@+id/activity_main_imv_avatar"
-                    app:srcCompat="@mipmap/hungveo"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:paddingTop="@dimen/activity_vertical_margin" />
+                    app:srcCompat="@mipmap/hungveo1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingTop="@dimen/activity_vertical_margin" />
                 <LinearLayout
                     android:layout_width="150dp"
                     android:layout_height="match_parent"
@@ -186,7 +188,7 @@
                 <ImageView
                     android:layout_width="@dimen/navigation_item_icon_size"
                     android:layout_height="@dimen/navigation_item_icon_size"
-                    android:src="@drawable/ic_action_info" />
+                    android:src="@drawable/add" />
 
                 <TextView
                     android:layout_width="170dp"
@@ -210,9 +212,10 @@
                 android:paddingRight="@dimen/activity_horizontal_margin">
 
                 <ImageView
+                    android:id="@+id/imageView2"
                     android:layout_width="@dimen/navigation_item_icon_size"
                     android:layout_height="@dimen/navigation_item_icon_size"
-                    android:src="@drawable/ic_action_info" />
+                    android:src="@drawable/paper" />
 
                 <TextView
                     android:layout_width="170dp"
@@ -240,7 +243,7 @@
                 <ImageView
                     android:layout_width="@dimen/navigation_item_icon_size"
                     android:layout_height="@dimen/navigation_item_icon_size"
-                    android:src="@drawable/ic_action_info" />
+                    android:src="@drawable/abc" />
 
                 <TextView
                     android:layout_width="170dp"
@@ -276,6 +279,7 @@
                 android:paddingRight="@dimen/activity_horizontal_margin">
 
                 <ImageView
+                    android:id="@+id/imageView3"
                     android:layout_width="@dimen/navigation_item_icon_size"
                     android:layout_height="@dimen/navigation_item_icon_size"
                     android:src="@drawable/ic_action_info" />
@@ -304,7 +308,7 @@
                 <ImageView
                     android:layout_width="@dimen/navigation_item_icon_size"
                     android:layout_height="@dimen/navigation_item_icon_size"
-                    android:src="@drawable/ic_action_info" />
+                    android:src="@drawable/movie" />
 
                 <TextView
                     android:layout_width="170dp"
